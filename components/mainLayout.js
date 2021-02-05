@@ -3,9 +3,14 @@ import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
 
+function event(e) {
+    return () => console.log(e);
+};
+ 
+  
 export default function MainLayout({children}) {
     return (
-        <div className={styles.container}>
+        <div onClick={event("click_div")} onScroll={event("scroll_div")} className={styles.container}>
             <Head>
                 <title>РусИнЭко</title>
                 <link rel="icon" href="/favicon.ico" />
@@ -29,7 +34,9 @@ export default function MainLayout({children}) {
 
             <footer className={styles.footer}>
                 
-                Powered by{' '}<h3>Ogneyar</h3>
+                Powered by 
+                &nbsp;
+                <h3>Ogneyar</h3>
 
             </footer>
         </div>
