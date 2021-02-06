@@ -12,6 +12,7 @@ export default function Post() {
                 color: lightgreen;
             }
             `}</style>
+                        
         </MainLayout>
     )
 }
