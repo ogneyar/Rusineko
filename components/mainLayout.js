@@ -4,13 +4,14 @@ import styles from '../styles/Home.module.css'
 
 
 function event(e) {
-    return () => console.log(e);
+    // return () => 
+    console.log(e.type);
 };
  
   
 export default function MainLayout({children}) {
     return (
-        <div onClick={event("click_div")} onScroll={event("scroll_div")} className={styles.container}>
+        <div onClick={event} onScroll={event} className={styles.container}>
             <Head>
                 <title>РусИнЭко</title>
                 <link rel="icon" href="/favicon.ico" />
