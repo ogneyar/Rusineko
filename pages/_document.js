@@ -11,10 +11,12 @@ class MyDocument extends Document {
     
     return (
       <Html lang="ru">
-        <Head />
+        <Head>
+          <link rel="icon" href="%PUBLIC_URL%/logoRusineko.jpg" />
+        </Head>
         <body>
           <Main />
-          <NextScript />          
+          <NextScript />
         </body>
       </Html>
     )
