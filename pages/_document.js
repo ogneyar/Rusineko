@@ -12,7 +12,7 @@ class MyDocument extends Document {
     return (
       <Html lang="ru">
         <Head>
-          <link rel="icon" href="%PUBLIC_URL%/logoRusineko.jpg" />
+          {/* <link rel="icon" href="%PUBLIC_URL%/logoRusineko.jpg" /> */}
         </Head>
         <body>
           <Main />
