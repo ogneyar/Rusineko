@@ -1,3 +1,3 @@
-# Rusineko build runing on NextJs 
+# Rusinko site build on NextJs
 
 ## test site - https://rusineko.herokuapp.com
